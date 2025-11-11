@@ -93,7 +93,7 @@
 )
 
 #v(-2pt)
-- Debugged and developed an automation program for the 787 Mid Body Join to be installed at the Boeing Charleston assembly plant. The process involved collaboration with both developers and engineers working on embedded systems.
+- Debugged and developed an automation program for the 787 Mid Body Join to be installed at the Boeing Charleston assembly plant. The process involved collaborating with a team both developers and engineers.
 - Engineered a full GUI application for precision controlling and measuring with high-end laser trackers.
 - Solved laser tracker stand resonance, saving tens of thousands in laser tracker stand replacements.
 - Installed a Foundation Reference System and performed laser tracker accuracy validation. Successfully validated Leica and FARO laser trackers for Electroimpact and customers, including Boeing, resulting in saving of ten thousand dollars for a new tracker.
@@ -117,8 +117,8 @@
 )
 
 #v(-2pt)
-- Achieved 5x performance improvement over standard C string functions through custom stack-based memory management and efficient buffer allocation strategies.
 - Developed the first C string library to provide immutable string operations returning new string instances, similar to C\# string handling but optimized for C.
+- Achieved 5x performance improvement over standard C string functions through custom stack-based memory management and custom datastructures.
 - Reduced memory-related crashes by 90% by eliminating manual malloc/free management and preventing buffer overflows through automatic memory handling.
 // - Implemented custom algorithms using basic data structures (stacks, dynamic arrays) to enable safe string operations like concatenation, substring, and formatting that return new string objects
 #v(2pt)

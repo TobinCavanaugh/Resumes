@@ -117,9 +117,9 @@
 )
 
 #v(-2pt)
-- Achieved 5x performance improvement over standard C string functions through custom stack-based memory management and efficient buffer allocation strategies.
-- Developed the first C string library to provide immutable string operations returning new string instances, similar to C\# string handling but optimized for C.
-- Reduced memory-related crashes by 90% by eliminating manual malloc/free management and preventing buffer overflows through automatic memory handling.
+- Developed the first C string library to provide immutable string operations returning new string instances, similar to C\# string handling but optimized for C
+- Achieved 5x performance improvement over standard C string functions through custom stack-based memory management and efficient buffer allocation algorithms
+- Reduced memory-related crashes by 90% by eliminating manual malloc/free management and preventing buffer overflows through automatic memory handling
 // - Implemented custom algorithms using basic data structures (stacks, dynamic arrays) to enable safe string operations like concatenation, substring, and formatting that return new string objects
 #v(2pt)
 
@@ -134,7 +134,7 @@
 
 #v(-2pt)
 - Organized and hosted a competitive programming event with 10 participants developing poker bots in Python.
-- Designed tournament infrastructure and engine for automated bot-vs-bot gameplay.
+- Designed tournament infrastructure and engine for automated bot-vs-bot gameplay
 
 #h4[ENR 304 Teachers Assistant]
 #v(-0.2cm)
@@ -167,7 +167,7 @@
 #v(-2pt)
 - Developed a 32-bit protected mode operating system from scratch in C and Assembly, bootable on physical x86 hardware.
 - Implemented foundational kernel services, including virtual memory management and a task scheduler for preemptive multitasking.
-- Source code currently private.
+- Source code currently private
 #v(3pt)
 
 #h2[Education:]
