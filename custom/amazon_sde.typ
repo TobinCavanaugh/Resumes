@@ -165,8 +165,8 @@
 )
 
 #v(-2pt)
-- Developed a 32-bit protected mode operating system from scratch in C and Assembly, bootable on physical x86 hardware.
-- Implemented foundational kernel services, including virtual memory management and a task scheduler for preemptive multitasking.
+- Developed a 64-bit operating system from scratch in C and Assembly, bootable on physical x86 hardware.
+- Implemented foundational kernel services, including virtual memory management, a task scheduler, and ext2 filesystem support.
 - Source code currently private
 #v(3pt)
 
