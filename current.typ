@@ -95,9 +95,8 @@
 
 #v(-2pt)
 - Maintained and upgraded legacy pump tracking systems in the oil and gas sector using C\#, VB.NET, and SQL databases.
-- Debugged, diagnosed, and resolved critical application issues and telemetry synchronization bugs.
-- Optimized SQL database queries to improve reliability of real-time pump tracking telemetry.
-
+- Debugged, diagnosed, and resolved critical application issues.
+- Optimized SQL database queries to improve reliability of tracking telemetry, including work that fixed architectural issues that were affecting customers.
 #v(2pt)
 
 #h4[Metrology/Software Dev Internship]
