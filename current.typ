@@ -1,6 +1,6 @@
 #set page(
   paper: "us-letter",
-  margin: (x: 1.5cm, y: 0.5cm),
+  margin: (x: 1.5cm, y: 0.45cm),
 )
 
 #set text(
@@ -8,6 +8,7 @@
   font: "Tahoma",
   size: 9pt,
 )
+#show par: set block(spacing: 0.85em)
 
 #let accentColor = rgb(20, 69, 102);
 
@@ -23,20 +24,20 @@
 // ]
 
 // #v(-0.2cm)
-#v(0.9cm)
+#v(0.1cm)
 
 
 #align(left)[
   #h1[Tobin Cavanaugh]
 ]
 
-#v(-0.55cm)
+#v(-0.35cm)
 
 #let contactinfo = align(left)[
   #table(
     columns: (1fr, auto),
     stroke: 0.5pt,
-    inset: 5pt,
+    inset: 4pt,
     align: horizon,
     [*GitHub:* #link("https://github.com/TobinCavanaugh")[https://github.com/TobinCavanaugh]],
     [*Email:* #link("mailto:tobincavanaugh\@gmail.com")[tobincavanaugh\@gmail.com]],
@@ -55,19 +56,17 @@
 
 #h3[Skills:]
 
-#v(-0.2cm)
-#v(-0.2cm)
+#v(-0.1cm)
 
 #let skillstable = table(
   columns: (1fr, 1fr, 1fr),
   stroke: 0.5pt,
-  inset: 5pt,
+  inset: 4pt,
   align: top,
   [#underline[Technical Skills] \
-    //  • C Programming \
-    • C, C\#, Rust, C++, Python, Java \
-    • SQL, Git, JavaScript, Linux \
-    • Debugging],
+    • *Languages:* C\#, C/C++, Assembly, Python, Rust \
+    • *Tools & OS:* Linux, Git, GDB, SQL \
+    • *Concepts:* Systems & Embedded Dev],
   [#underline[Certifications] \
     • Unity Developer Certified \
     • *Forklift Certified*],
@@ -85,6 +84,21 @@
 #v(-0.2cm)
 #h2[Work History:]
 #v(-0.2cm)
+
+#h4[Software Engineering Intern]
+
+#grid(
+  columns: (1fr, 1fr, 1fr),
+  gutter: 10pt,
+  [*RPT Industries*], align(center)[Remote], align(right)[Apr 2026 – Sep 2026],
+)
+
+#v(-2pt)
+- Maintained and upgraded legacy pump tracking systems in the oil and gas sector using C\#, VB.NET, and SQL databases.
+- Debugged, diagnosed, and resolved critical application issues and telemetry synchronization bugs.
+- Optimized SQL database queries to improve reliability of real-time pump tracking telemetry.
+
+#v(2pt)
 
 #h4[Metrology/Software Dev Internship]
 
@@ -135,9 +149,10 @@
 )
 
 #v(-2pt)
-- Developed a 64-bit operating system from scratch in C and Assembly, bootable on physical x86 hardware with custom standard library.
-- Implemented foundational kernel services, including virtual memory management, a task scheduler, and ext2 filesystem support.
-- Source code currently private
+- Developed a 64-bit, capability-based operating system from scratch in C and Assembly, booting via Limine.
+- Designed a Virtual File System (VFS) and an advanced capability permission system for secure resource isolation and sandboxing.
+- Embedded a WebAssembly (WASM) runtime into the kernel to execute sandboxed userland applications, including an existing port of DOOM.
+- Implemented multitasking kernel services, featuring a custom task scheduler, PS/2 input handling, virtual memory management, and multi-terminal switching.
 #v(3pt)
 
 
@@ -157,10 +172,9 @@
 )
 
 #v(-2pt)
-- Developed the first C string library to provide immutable string operations returning new string instances, similar to C\# string handling but optimized for C
-- Achieved 5x performance improvement over standard C string functions through custom stack-based memory management and efficient buffer allocation algorithms
-- Reduced memory-related crashes by 90% by eliminating manual malloc/free management and preventing buffer overflows through automatic memory handling
-- Implemented custom algorithms using basic data structures (stacks, dynamic arrays) to enable safe string operations like concatenation, substring, and formatting that return new string objects
+- Developed a high-performance, immutable C string library designed to prevent manual memory errors and optimize memory safety.
+- Mitigated memory-related crashes and security vulnerabilities (e.g., buffer overflows) by implementing automated memory management.
+- Achieved 5x execution speedup over standard C string functions via custom stack-based memory management and buffer allocation.
 // #v(2pt)
 
 // #h4[Poker Bot Programming Competition]
