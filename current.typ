@@ -8,7 +8,7 @@
   font: "Tahoma",
   size: 9pt,
 )
-#show par: set block(spacing: 0.85em)
+#set par(spacing: 0.85em)
 
 #let accentColor = rgb(20, 69, 102);
 
@@ -105,7 +105,7 @@
 #grid(
   columns: (1fr, 1fr, 1fr),
   gutter: 10pt,
-  [*Electroimpact*], align(center)[Mukilteo, WA], align(right)[Summer 2024, 2023, 2025],
+  [*Electroimpact*], align(center)[Mukilteo, WA], align(right)[Summer 2023, 2024, 2025],
 )
 
 #v(-2pt)
